@@ -27,6 +27,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ''
+      - run: npm ci
 
       # Runs a single command using the runners shell
       - name: Build a Project
